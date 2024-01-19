@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  #calcu {
+    border-collapse: collapse;
+    width: 300px;
+    margin: auto;
+  }
+  
+  #calcu input {
+    width: 160%;
+    height: 50px;
+    font-size: 28px;
+    margin: 2px;
+    border: 1px solid #ccc;
+  }
+  
+  #calcu input[type="text"] {
+    width: calc(100% - 10px);
+    padding: 5px;
+    border: none;
+    outline: none;
+  }
+  
+  #calcu input[type="button"] {
+    background-color: #4CAF50; 
+    color: white;
+    cursor: pointer;
+  }
+  
+  #calcu input[type="button"]:hover {
+    background-color: #489; 
+  }
+  
+  #calcu input[value="="] {
+    background-color: #008CBA;
+  }
+  
+  #calcu input[value="c"] {
+    background-color: #f44336;
+  }
+  
